@@ -1,0 +1,36 @@
+.hero{
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 600px;
+}
+.h-slogan{
+    font-size: 10vw;
+    font-weight: 700;
+}
+.h-description{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.h-btn{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+@media screen and (min-width: 750px) {
+    .h-slogan{
+        font-size: 4rem;
+        width: 42rem;
+        margin-bottom: 1rem;
+    }
+    .h-description{
+        font-size: 1.2rem;
+        width: 42rem;
+        margin-bottom: 3rem;
+    }
+    .h-btn{
+        font-size: 1.1rem;
+    }
+}

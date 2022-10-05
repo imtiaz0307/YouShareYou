@@ -1,0 +1,90 @@
+.feed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5rem 0;
+}
+
+.stories {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.story {
+    min-height: 300px;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.story-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-delete-edit {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.delete-story {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.edit-story {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.story-user {
+    font-size: .9rem;
+    margin-bottom: .2rem;
+}
+
+.story-time {
+    font-size: .7rem;
+}
+
+.story-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    padding: 0 1rem 0 0;
+    overflow: hidden;
+}
+
+.story-description {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem 0 0;
+    overflow: hidden;
+}
+
+.story-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-endorsements {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .stories-posts-head{
+        font-weight: 700;
+        font-size: 4vw;
+    }
+}

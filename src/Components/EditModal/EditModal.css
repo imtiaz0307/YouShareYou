@@ -1,0 +1,62 @@
+.edit-modal-wrapper {
+    height: 100vh;
+    width: 100vw;
+    min-height: 600px;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.closeModal {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.edit-modal {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    width: 100%;
+    border: 1px solid rgb(209, 209, 209);
+    max-width: 500px;
+}
+
+.e-m-f {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .5rem;
+}
+
+.e-m-f>input {
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.e-m-f>textarea {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    height: 200px;
+    outline: none;
+    resize: none;
+}
+
+.modal-btn {
+    padding: .8rem;
+}

@@ -1,0 +1,32 @@
+.formWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+}
+.formWrapper > h1{
+    margin-bottom: 2rem;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: .5rem;
+    max-width: 500px;
+}
+.Form > input{
+    height: 3rem;
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+.login-btn{
+    padding: .8rem;
+    font-size: 1rem;
+}
+.formWrapper > a{
+    font-size: .8rem;
+    margin-top: 1.5rem;
+}

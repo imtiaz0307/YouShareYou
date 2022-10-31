@@ -61,14 +61,5 @@ router.delete('/deletepost/:id', fetchuser, async (req, res) => {
     res.json({post, success: 'Post deleted successfully.'})
 })
 
-// post like increase will be added soon
-router.put('/likedpost/:id', fetchuser, async (req, res) => {
-    let post = await Post.findById(req.params.id)
-    const likedPost = await Post.updateOne({id: req.params.id},{
-        $set: {
-            likes: post.likes +1
-        }
-    })
-    res.json({likedPost, post})
-})
+
 export default router
